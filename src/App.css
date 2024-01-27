@@ -1,0 +1,104 @@
+.app {
+   display: flex;
+  flex-direction: column;
+ 
+   padding: 20px; 
+  
+}
+body{
+  background-color: rgb(63, 61, 61);
+}
+
+.search-bar {
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.logo{
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100px;
+  height: 30px;
+  margin-right: 150px;
+}
+
+.search-bar>input{
+  margin-left: 55px;
+  width: 40%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid beige;
+  background-color: transparent;
+  color: white;
+}
+.search-bar>button{
+  margin: 5px;
+  width: 145px;
+  height: 45px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid wheat;
+  color: white;
+
+}
+.ID{
+  margin-left: 100px;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+.ID>img{
+  width: 30px;
+  margin-left: 20px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.book-card img {
+  width: 200px;
+  height: 200px;
+  margin-left: 15px;
+  display: grid;
+}
+
+.book-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.book-detail img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.book-detail a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.book-detail a:hover {
+  text-decoration: underline;
+}
